@@ -1,0 +1,40 @@
+spring:
+  devtools:
+    restart:
+      enabled: true
+
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/quartz
+    username: root
+    password: qudtngogo1!
+    hikari:
+      poolName: HikariCP
+      connectionTimeout: 30000
+      maximumPoolSize: 10
+
+  quartz:
+    auto-startup: true
+    scheduler-name: Quartz-Scheduler-Test
+    overwrite-existing-jobs: true
+    job-store-type: jdbc
+    jdbc:
+      initialize-schema: never
+    properties:
+      org.quartz:
+        scheduler:
+          instanceName: quartz-worker
+          instanceId: AUTO
+          instanceIdGenerator.class: org.quartz.simpl.SimpleInstanceIdGenerator
+          threadName: quartz-manager-thread
+        threadPool:
+          threadCount: 20
+        jobStore:
+          useProperties: true
+          misfireThreshold: 60000
+          tablePrefix: QRTZ_
+          isClustered: true
+        plugin:
+          shutdownHook:
+            class: org.quartz.plugins.management.ShutdownHookPlugin
+            cleanShutdown: false
