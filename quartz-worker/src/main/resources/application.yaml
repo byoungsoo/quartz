@@ -15,20 +15,18 @@ spring:
 
   quartz:
     auto-startup: true
-    scheduler-name: Quartz-Scheduler-Test
-    overwrite-existing-jobs: true
     job-store-type: jdbc
     jdbc:
       initialize-schema: never
     properties:
       org.quartz:
         scheduler:
-          instanceName: quartz-worker
+          instanceName: quartz-scheduler
           instanceId: AUTO
           instanceIdGenerator.class: org.quartz.simpl.SimpleInstanceIdGenerator
           threadName: quartz-manager-thread
         threadPool:
-          threadCount: 20
+          threadCount: 2
         jobStore:
           useProperties: true
           misfireThreshold: 60000

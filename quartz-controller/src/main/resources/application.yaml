@@ -14,16 +14,13 @@ spring:
       maximumPoolSize: 10
 
   quartz:
-    auto-startup: false
-    overwrite-existing-jobs: true
-    scheduler-name: Quartz-Scheduler-Test
     job-store-type: jdbc
     jdbc:
-      initialize-schema: always
+      initialize-schema: never
     properties:
       org.quartz:
         scheduler:
-          instanceName: quartz-controller
+          instanceName: quartz-scheduler
           instanceId: AUTO
           instanceIdGenerator.class: org.quartz.simpl.SimpleInstanceIdGenerator
           threadName: quartz-manager-thread
@@ -39,11 +36,21 @@ spring:
             class: org.quartz.plugins.management.ShutdownHookPlugin
             cleanShutdown: false
 
-springdoc:
-  api-docs:
-    path: /api-docs
+#springdoc:
+#  api-docs:
+#    path: /api-docs
 
 server:
   port: 8080
 
+logging:
+  level:
+    root: info
+    org:
+      bys:
+        sample: debug
 
+
+api-package: com.bys.sample.quartz.controller
+application.name: quarts-controller
+application.description: Quartz Scheduler using Rest API with Spring Boot

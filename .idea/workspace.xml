@@ -4,7 +4,46 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8e32b97a-947b-4f1e-b4fc-a37dd34d800e" name="Changes" comment="" />
+    <list default="true" id="3ebde63f-a9fa-414b-9f2f-ddc2cc51a9d8" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/quartz-controller/src/main/java/com/bys/sample/quartz/bean/BackupJobDetailRequestBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quartz-controller/src/main/java/com/bys/sample/quartz/bean/SchedulerResponseBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quartz-controller/src/main/java/com/bys/sample/quartz/bean/TriggerDetailsRequestBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quartz-controller/src/main/java/com/bys/sample/quartz/config/OpenApiConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quartz-controller/src/main/java/com/bys/sample/quartz/controller/BackupSchedulerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quartz-controller/src/main/java/com/bys/sample/quartz/job/RestAPIJob.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quartz-controller/src/main/java/com/bys/sample/quartz/service/SchedulerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quartz-worker/src/main/java/com/bys/sample/quartz/config/SchedulerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quartz-worker/src/main/java/com/bys/sample/quartz/config/SchedulerJobFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quartz-worker/src/main/java/com/bys/sample/quartz/job/RestAPIJob.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/2bae2405-f0b4-4f9b-9e59-abc19c608d2b.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/2bae2405-f0b4-4f9b-9e59-abc19c608d2b/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/2bae2405-f0b4-4f9b-9e59-abc19c608d2b/storage_v2/_src_/schema/mysql.osA4Bg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/2bae2405-f0b4-4f9b-9e59-abc19c608d2b/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/2bae2405-f0b4-4f9b-9e59-abc19c608d2b/storage_v2/_src_/schema/sys.zb4BAA.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/quartz-worker.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/quartz-worker.main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/quartz-worker.test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/quartz-controller/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/quartz-controller/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quartz-controller/src/main/java/com/bys/sample/quartzcontroller/QuartzControllerApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/quartz-controller/src/main/java/com/bys/sample/quartzcontroller/config/QuartzConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/quartz-controller/src/main/java/com/bys/sample/quartzcontroller/job/HelloJob.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/quartz-controller/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/quartz-controller/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quartz-controller/src/main/resources/quartz-create.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/quartz-controller/src/test/java/com/bys/sample/quartzcontroller/QuartzManagerApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/quartz-worker/src/main/java/com/bys/sample/quartzcontroller/job/HelloJob.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/quartz-worker/src/main/java/com/bys/sample/quartzworker/QuartzWorkerApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/quartz-worker/src/main/java/com/bys/sample/quartzworker/config/QuartzConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/quartz-worker/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/quartz-worker/src/main/resources/application.yaml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,15 +53,6 @@
     <projectState path="$PROJECT_DIR$/quartz-controller">
       <ProjectState />
     </projectState>
-    <projectState path="$PROJECT_DIR$/quartz-manager">
-      <ProjectState />
-    </projectState>
-    <projectState path="$PROJECT_DIR$/quartz-manager/.gradle/quartz-worker">
-      <ProjectState />
-    </projectState>
-    <projectState path="$PROJECT_DIR$/quartz-scheduler">
-      <ProjectState />
-    </projectState>
     <projectState path="$PROJECT_DIR$/quartz-worker">
       <ProjectState />
     </projectState>
@@ -30,12 +60,6 @@
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
       <state>
-        <task path="$PROJECT_DIR$/quartz-scheduler">
-          <activation />
-        </task>
-        <task path="$PROJECT_DIR$/quartz-worker">
-          <activation />
-        </task>
         <projects_view>
           <tree_state>
             <expand />
@@ -55,9 +79,24 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="27N2CwfcbNwGLa7GS5lnDADVFAS" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+  <component name="JpbToolWindowState">
+    <option name="myId2FirstActivated">
+      <map>
+        <entry key="com.haulmont.jpb.jpaPalette" value="true" />
+        <entry key="com.haulmont.jpb.jpaStructure" value="true" />
+      </map>
+    </option>
+    <option name="myId2Visible">
+      <map>
+        <entry key="com.haulmont.jpb.jpaPalette" value="false" />
+        <entry key="com.haulmont.jpb.jpaStructure" value="false" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectId" id="27SMbfocE28L2qeouh3X9xa9PuZ" />
+  <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
+    <ConfirmationsSetting value="2" id="Remove" />
   </component>
   <component name="ProjectViewState">
     <option name="autoscrollFromSource" value="true" />
@@ -65,37 +104,46 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mysql" />
-    <property name="GitStage.ChangesTree.GroupingKeys" value="directory&#10;module&#10;repository" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="ToolWindowEndpoints.ShowToolbar" value="false" />
+    <property name="ToolWindowTODO.ShowToolbar" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/quartz-controller/src/main/java/com/bys/sample/quartz/dto" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="application.passwordSafe" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
   </component>
-  <component name="RunManager" selected="Spring Boot.QuartzWorkerApplication">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/quartz-controller/src/main/java/com/bys/sample/quartz/dto" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.bys.sample.quartz.job" />
+      <recent name="com.bys.sample.quartz.dto" />
+      <recent name="com.bys.sample.quartz.service" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.QuartzControllerApplication">
     <configuration name="QuartzControllerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="quartz-controller.main" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.bys.sample.quartzcontroller.QuartzControllerApplication" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.bys.sample.quartz.QuartzControllerApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="QuartzWorkerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="quartz-worker.main" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.bys.sample.quartzworker.QuartzWorkerApplication" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.bys.sample.quartz.QuartzWorkerApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -104,14 +152,14 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="8e32b97a-947b-4f1e-b4fc-a37dd34d800e" name="Changes" comment="" />
-      <created>1649146098199</created>
+      <changelist id="3ebde63f-a9fa-414b-9f2f-ddc2cc51a9d8" name="Changes" comment="" />
+      <created>1649309106965</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1649146098199</updated>
-      <workItem from="1649146100660" duration="1101000" />
-      <workItem from="1649147209743" duration="4601000" />
-      <workItem from="1649164572450" duration="2204000" />
+      <updated>1649309106965</updated>
+      <workItem from="1649309109217" duration="174000" />
+      <workItem from="1649309320805" duration="68000" />
+      <workItem from="1649309546405" duration="7737000" />
     </task>
     <servers />
   </component>
@@ -128,6 +176,20 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/quartz-controller/src/main/java/com/bys/sample/quartz/service/SchedulerService.java</url>
+          <line>53</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
